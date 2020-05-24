@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6165E57C243F2EED0068E316 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6165E57B243F2EED0068E316 /* awsconfiguration.json */; };
+		6165E63B244049F70068E316 /* AWSIOT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6165E63A244049F70068E316 /* AWSIOT.swift */; };
+		61ABF150243B260200CB07C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ABF14F243B260200CB07C0 /* AppDelegate.swift */; };
+		61ABF152243B260200CB07C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ABF151243B260200CB07C0 /* SceneDelegate.swift */; };
+		61ABF154243B260200CB07C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ABF153243B260200CB07C0 /* ViewController.swift */; };
+		61ABF157243B260200CB07C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61ABF155243B260200CB07C0 /* Main.storyboard */; };
+		61ABF15A243B260200CB07C0 /* cypress_awsiot_two_way_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61ABF158243B260200CB07C0 /* cypress_awsiot_two_way_demo.xcdatamodeld */; };
+		61ABF15C243B260400CB07C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61ABF15B243B260400CB07C0 /* Assets.xcassets */; };
+		61ABF15F243B260400CB07C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61ABF15D243B260400CB07C0 /* LaunchScreen.storyboard */; };
+		61ABF16A243B260500CB07C0 /* cypress_awsiot_two_way_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ABF169243B260500CB07C0 /* cypress_awsiot_two_way_demoTests.swift */; };
+		61ABF175243B260500CB07C0 /* cypress_awsiot_two_way_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ABF174243B260500CB07C0 /* cypress_awsiot_two_way_demoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61ABF166243B260500CB07C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61ABF144243B260200CB07C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61ABF14B243B260200CB07C0;
+			remoteInfo = cypress_awsiot_two_way_demo;
+		};
+		61ABF171243B260500CB07C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61ABF144243B260200CB07C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61ABF14B243B260200CB07C0;
+			remoteInfo = cypress_awsiot_two_way_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6165E633243F51970068E316 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6165E57B243F2EED0068E316 /* awsconfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		6165E5AB243F4C570068E316 /* cypress_awsiot_two_way_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cypress_awsiot_two_way_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6165E5D8243F51450068E316 /* cypress_awsiot_two_way_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cypress_awsiot_two_way_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6165E5D9243F51450068E316 /* cypress_awsiot_two_way_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cypress_awsiot_two_way_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6165E63A244049F70068E316 /* AWSIOT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSIOT.swift; sourceTree = "<group>"; };
+		6185757124605E4B00E71B71 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6185757324605E5800E71B71 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		6185757E2460890700E71B71 /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoginWithAmazon.framework; path = "../../../../Downloads/LoginWithAmazon-3.1.0/LoginWithAmazon.framework"; sourceTree = "<group>"; };
+		61ABF14F243B260200CB07C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61ABF151243B260200CB07C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61ABF153243B260200CB07C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61ABF156243B260200CB07C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61ABF159243B260200CB07C0 /* cypress_awsiot_two_way_demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cypress_awsiot_two_way_demo.xcdatamodel; sourceTree = "<group>"; };
+		61ABF15B243B260400CB07C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61ABF15E243B260400CB07C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61ABF160243B260400CB07C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61ABF169243B260500CB07C0 /* cypress_awsiot_two_way_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cypress_awsiot_two_way_demoTests.swift; sourceTree = "<group>"; };
+		61ABF16B243B260500CB07C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61ABF174243B260500CB07C0 /* cypress_awsiot_two_way_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cypress_awsiot_two_way_demoUITests.swift; sourceTree = "<group>"; };
+		61ABF176243B260500CB07C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61ABF149243B260200CB07C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ABF162243B260500CB07C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ABF16D243B260500CB07C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6165E5DA243F51950068E316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6185757E2460890700E71B71 /* LoginWithAmazon.framework */,
+				6185757324605E5800E71B71 /* SafariServices.framework */,
+				6185757124605E4B00E71B71 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61ABF143243B260200CB07C0 = {
+			isa = PBXGroup;
+			children = (
+				61ABF14E243B260200CB07C0 /* cypress_awsiot_two_way_demo */,
+				61ABF168243B260500CB07C0 /* cypress_awsiot_two_way_demoTests */,
+				61ABF173243B260500CB07C0 /* cypress_awsiot_two_way_demoUITests */,
+				6165E5AB243F4C570068E316 /* cypress_awsiot_two_way_demo.app */,
+				6165E5D8243F51450068E316 /* cypress_awsiot_two_way_demoTests.xctest */,
+				6165E5D9243F51450068E316 /* cypress_awsiot_two_way_demoUITests.xctest */,
+				6165E5DA243F51950068E316 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61ABF14E243B260200CB07C0 /* cypress_awsiot_two_way_demo */ = {
+			isa = PBXGroup;
+			children = (
+				61ABF14F243B260200CB07C0 /* AppDelegate.swift */,
+				61ABF151243B260200CB07C0 /* SceneDelegate.swift */,
+				61ABF153243B260200CB07C0 /* ViewController.swift */,
+				61ABF155243B260200CB07C0 /* Main.storyboard */,
+				61ABF15B243B260400CB07C0 /* Assets.xcassets */,
+				61ABF15D243B260400CB07C0 /* LaunchScreen.storyboard */,
+				61ABF160243B260400CB07C0 /* Info.plist */,
+				61ABF158243B260200CB07C0 /* cypress_awsiot_two_way_demo.xcdatamodeld */,
+				6165E57B243F2EED0068E316 /* awsconfiguration.json */,
+				6165E63A244049F70068E316 /* AWSIOT.swift */,
+			);
+			path = cypress_awsiot_two_way_demo;
+			sourceTree = "<group>";
+		};
+		61ABF168243B260500CB07C0 /* cypress_awsiot_two_way_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				61ABF169243B260500CB07C0 /* cypress_awsiot_two_way_demoTests.swift */,
+				61ABF16B243B260500CB07C0 /* Info.plist */,
+			);
+			path = cypress_awsiot_two_way_demoTests;
+			sourceTree = "<group>";
+		};
+		61ABF173243B260500CB07C0 /* cypress_awsiot_two_way_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61ABF174243B260500CB07C0 /* cypress_awsiot_two_way_demoUITests.swift */,
+				61ABF176243B260500CB07C0 /* Info.plist */,
+			);
+			path = cypress_awsiot_two_way_demoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61ABF14B243B260200CB07C0 /* cypress_awsiot_two_way_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61ABF179243B260500CB07C0 /* Build configuration list for PBXNativeTarget "cypress_awsiot_two_way_demo" */;
+			buildPhases = (
+				61ABF148243B260200CB07C0 /* Sources */,
+				61ABF149243B260200CB07C0 /* Frameworks */,
+				61ABF14A243B260200CB07C0 /* Resources */,
+				6165E633243F51970068E316 /* Embed Frameworks */,
+				6165E5D7243F4C7D0068E316 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cypress_awsiot_two_way_demo;
+			productName = cypress_awsiot_two_way_demo;
+			productReference = 6165E5AB243F4C570068E316 /* cypress_awsiot_two_way_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61ABF164243B260500CB07C0 /* cypress_awsiot_two_way_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61ABF17C243B260500CB07C0 /* Build configuration list for PBXNativeTarget "cypress_awsiot_two_way_demoTests" */;
+			buildPhases = (
+				61ABF161243B260500CB07C0 /* Sources */,
+				61ABF162243B260500CB07C0 /* Frameworks */,
+				61ABF163243B260500CB07C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61ABF167243B260500CB07C0 /* PBXTargetDependency */,
+			);
+			name = cypress_awsiot_two_way_demoTests;
+			productName = cypress_awsiot_two_way_demoTests;
+			productReference = 6165E5D8243F51450068E316 /* cypress_awsiot_two_way_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61ABF16F243B260500CB07C0 /* cypress_awsiot_two_way_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61ABF17F243B260500CB07C0 /* Build configuration list for PBXNativeTarget "cypress_awsiot_two_way_demoUITests" */;
+			buildPhases = (
+				61ABF16C243B260500CB07C0 /* Sources */,
+				61ABF16D243B260500CB07C0 /* Frameworks */,
+				61ABF16E243B260500CB07C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61ABF172243B260500CB07C0 /* PBXTargetDependency */,
+			);
+			name = cypress_awsiot_two_way_demoUITests;
+			productName = cypress_awsiot_two_way_demoUITests;
+			productReference = 6165E5D9243F51450068E316 /* cypress_awsiot_two_way_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61ABF144243B260200CB07C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = sclee;
+				TargetAttributes = {
+					61ABF14B243B260200CB07C0 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					61ABF164243B260500CB07C0 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 61ABF14B243B260200CB07C0;
+					};
+					61ABF16F243B260500CB07C0 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 61ABF14B243B260200CB07C0;
+					};
+				};
+			};
+			buildConfigurationList = 61ABF147243B260200CB07C0 /* Build configuration list for PBXProject "cypress_awsiot_two_way_demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61ABF143243B260200CB07C0;
+			productRefGroup = 61ABF143243B260200CB07C0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61ABF14B243B260200CB07C0 /* cypress_awsiot_two_way_demo */,
+				61ABF164243B260500CB07C0 /* cypress_awsiot_two_way_demoTests */,
+				61ABF16F243B260500CB07C0 /* cypress_awsiot_two_way_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61ABF14A243B260200CB07C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6165E57C243F2EED0068E316 /* awsconfiguration.json in Resources */,
+				61ABF15F243B260400CB07C0 /* LaunchScreen.storyboard in Resources */,
+				61ABF15C243B260400CB07C0 /* Assets.xcassets in Resources */,
+				61ABF157243B260200CB07C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ABF163243B260500CB07C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ABF16E243B260500CB07C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6165E5D7243F4C7D0068E316 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "Shell /bin/sh\n\nbash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61ABF148243B260200CB07C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61ABF15A243B260200CB07C0 /* cypress_awsiot_two_way_demo.xcdatamodeld in Sources */,
+				61ABF154243B260200CB07C0 /* ViewController.swift in Sources */,
+				61ABF150243B260200CB07C0 /* AppDelegate.swift in Sources */,
+				61ABF152243B260200CB07C0 /* SceneDelegate.swift in Sources */,
+				6165E63B244049F70068E316 /* AWSIOT.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ABF161243B260500CB07C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61ABF16A243B260500CB07C0 /* cypress_awsiot_two_way_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ABF16C243B260500CB07C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61ABF175243B260500CB07C0 /* cypress_awsiot_two_way_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61ABF167243B260500CB07C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61ABF14B243B260200CB07C0 /* cypress_awsiot_two_way_demo */;
+			targetProxy = 61ABF166243B260500CB07C0 /* PBXContainerItemProxy */;
+		};
+		61ABF172243B260500CB07C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61ABF14B243B260200CB07C0 /* cypress_awsiot_two_way_demo */;
+			targetProxy = 61ABF171243B260500CB07C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61ABF155243B260200CB07C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61ABF156243B260200CB07C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61ABF15D243B260400CB07C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61ABF15E243B260400CB07C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61ABF177243B260500CB07C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61ABF178243B260500CB07C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61ABF17A243B260500CB07C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = cypress_awsiot_two_way_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cypress-awsiot-two-way-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61ABF17B243B260500CB07C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7698T37TAB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = cypress_awsiot_two_way_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cypress-awsiot-two-way-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61ABF17D243B260500CB07C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7698T37TAB;
+				INFOPLIST_FILE = cypress_awsiot_two_way_demoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sc-lee.cypress-awsiot-two-way-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cypress_awsiot_two_way_demo.app/cypress_awsiot_two_way_demo";
+			};
+			name = Debug;
+		};
+		61ABF17E243B260500CB07C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7698T37TAB;
+				INFOPLIST_FILE = cypress_awsiot_two_way_demoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sc-lee.cypress-awsiot-two-way-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cypress_awsiot_two_way_demo.app/cypress_awsiot_two_way_demo";
+			};
+			name = Release;
+		};
+		61ABF180243B260500CB07C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7698T37TAB;
+				INFOPLIST_FILE = cypress_awsiot_two_way_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sc-lee.cypress-awsiot-two-way-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cypress_awsiot_two_way_demo;
+			};
+			name = Debug;
+		};
+		61ABF181243B260500CB07C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7698T37TAB;
+				INFOPLIST_FILE = cypress_awsiot_two_way_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sc-lee.cypress-awsiot-two-way-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cypress_awsiot_two_way_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61ABF147243B260200CB07C0 /* Build configuration list for PBXProject "cypress_awsiot_two_way_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ABF177243B260500CB07C0 /* Debug */,
+				61ABF178243B260500CB07C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61ABF179243B260500CB07C0 /* Build configuration list for PBXNativeTarget "cypress_awsiot_two_way_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ABF17A243B260500CB07C0 /* Debug */,
+				61ABF17B243B260500CB07C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61ABF17C243B260500CB07C0 /* Build configuration list for PBXNativeTarget "cypress_awsiot_two_way_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ABF17D243B260500CB07C0 /* Debug */,
+				61ABF17E243B260500CB07C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61ABF17F243B260500CB07C0 /* Build configuration list for PBXNativeTarget "cypress_awsiot_two_way_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ABF180243B260500CB07C0 /* Debug */,
+				61ABF181243B260500CB07C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		61ABF158243B260200CB07C0 /* cypress_awsiot_two_way_demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61ABF159243B260200CB07C0 /* cypress_awsiot_two_way_demo.xcdatamodel */,
+			);
+			currentVersion = 61ABF159243B260200CB07C0 /* cypress_awsiot_two_way_demo.xcdatamodel */;
+			path = cypress_awsiot_two_way_demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 61ABF144243B260200CB07C0 /* Project object */;
+}
