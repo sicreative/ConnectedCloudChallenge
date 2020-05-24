@@ -41,6 +41,13 @@ install python package requests and websocket
 8.  for fine tuning sound sample, copy dog and other folder to S3 Buckets soundsample, and copy inside test folder to S3 Buckets soundsampletest.
      Inside jupyterlab terminal      > cd /home/ec2-user/SageMaker/models/research/audioset/yamnet
                                                     > python iot_train.py
+                                                    
+                                                    
+                                                    
+sound sample for training collected from freesound.org (Creative Common CC0) and testing from soundbible.com (Creative Common Attribution 3.0)
+AudoSet Licence CC4.0 https://research.google.com/audioset/download.html
+Our fine-tuning model reference of work by laanloabs:
+https://github.com/laanlabs/train_detector
 
 
 
