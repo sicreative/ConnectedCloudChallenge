@@ -45,7 +45,9 @@ install python package requests and websocket
                                                     
                                                     
 sound sample for training collected from freesound.org (Creative Common CC0) and testing from soundbible.com (Creative Common Attribution 3.0)
+
 AudoSet Licence CC4.0 https://research.google.com/audioset/download.html
+
 Our fine-tuning model reference of work by laanloabs:
 https://github.com/laanlabs/train_detector
 
