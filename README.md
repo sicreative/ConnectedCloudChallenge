@@ -9,7 +9,7 @@ Record Sound from TFT shield PDM MIC to on-board FRAM, stream via AWSIoT, pass t
 Use AWS IoT shadow connected with IOS APP
 
 More detail: 
-https://www.element14.com/community/community/design-challenges/connected-cloud-challenge-with-cypress-and-aws-iot/blog/2020/05/09/an-intelligent-mailbox-summary-of-the-challenge-11
+https://www.element14.com/community/community/design-challenges/connected-cloud-challenge-with-cypress-and-aws-iot/blog/2020/05/24/deep-learning-for-angry-dog-sound-classification-11
 
 ## Quick Install 
 Mbed and IOS reference of README.md under relative directory.
