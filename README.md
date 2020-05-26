@@ -19,7 +19,7 @@ Mbed and IOS reference of README.md under relative directory.
 1. IOS source ./ios-mailbox
 2. Mbed source ./mbed-os-mailbox
 
-### 3. Lambra python source 
+### Lambra python source 
 #### ambda.py
 Build new lambda function under AWS console and paste it, set relative kinesis stream trigger.
 #### test_sound_ai.py
